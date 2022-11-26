@@ -68,6 +68,7 @@
   padding-left: 100px;
 
   margin-bottom: 50px;
+  
 }
 
 .spells img {
@@ -92,6 +93,7 @@
   border-style: solid;
   border-width: 3px;
   border-color: rgb(148, 110, 53);
+  box-shadow: 0px 0px 30px 5px black;
 }
 
 .pass:hover img {
@@ -135,7 +137,7 @@
   width: 130px;
   padding: 2px;
   margin: 0 auto;
-  top: 10px;
+  top: 15px;
   font-size: 10px;
   background-color: rgba(166, 165, 165, 0.363);
   border-radius: 5px;
