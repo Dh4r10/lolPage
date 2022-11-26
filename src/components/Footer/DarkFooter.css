@@ -1,0 +1,50 @@
+.DarkfooterConteiner {
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  background-color: rgba(86, 50, 243, 0.198);
+}
+
+.DarktextosContactos {
+  padding-top: 35px;
+  color: rgb(137, 5, 171);
+}
+
+.DarkbrandIcons a {
+  color: rgba(137, 5, 171, 0.795);
+}
+
+.Darkredes {
+  margin: 0 15px;
+  height: 35px;
+
+  transition: 0.5s;
+}
+
+.Darkredes:hover {
+  color: rgba(173, 6, 215, 0.795);
+  transform: scale(1.1);
+}
+
+.Darkcopyright {
+  padding-bottom: 30px;
+  padding-right: 20px;
+  color: rgb(137, 5, 171);
+}
+
+.Darkscroll {
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+
+  color: rgb(137, 5, 171);
+
+  transition: 300ms all ease;
+}
+
+.Darkscroll:hover {
+  transform: scale(1.1);
+  color: rgb(173, 6, 215);
+}

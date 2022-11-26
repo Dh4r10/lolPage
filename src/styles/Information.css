@@ -1,0 +1,213 @@
+@font-face {
+  font-family: "BeaufortforLOL";
+  src: url("../assets/fonts/BeaufortforLOL-Regular.ttf");
+}
+
+@font-face {
+  font-family: "FrizQuadrataRegular";
+  src: url("../assets/fonts/FrizQuadrataRegular.ttf");
+}
+
+@font-face {
+  font-family: "BeaufortforLOLBold";
+  src: url("../assets/fonts/BeaufortforLOLBold.ttf");
+}
+
+.info {
+  min-width: 1330px;
+}
+
+.cardChamp {
+  padding: 172px;
+}
+
+.cont {
+  display: grid;
+  border-radius: 15px;
+  grid-template-columns: repeat(4, 1fr);
+
+  background-color: rgba(0, 0, 0, 0.665);
+}
+
+.dates {
+  grid-column-start: 2;
+  grid-column-end: 5;
+
+  padding: 20px;
+  padding-right: 50px;
+  padding-left: 30px;
+}
+
+.boxTitle {
+  margin-bottom: 100px;
+}
+
+.title {
+  text-align: center;
+  font-family: "FrizQuadrataRegular";
+  text-transform: uppercase;
+  font-size: 40px;
+  color: rgba(195, 149, 32, 0.9);
+  text-shadow: 3.5px 3.5px 0 rgb(22, 16, 12);
+}
+
+.fot {
+  padding: 30px 20px;
+  padding-right: 20px;
+}
+
+.fotChamp {
+  border-radius: 17px;
+}
+
+.spells {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  height: 20%;
+  padding-left: 100px;
+
+  margin-bottom: 50px;
+}
+
+.spells img {
+  transition: 0.3s;
+}
+
+.pass,
+.caja {
+  position: relative;
+  text-align: center;
+  height: 45%;
+  width: 45%;
+  border-radius: 40px;
+}
+
+.caja p {
+  position: relative;
+  bottom: 78px;
+  left: 18px;
+  transition: 0.3s;
+  padding: 26px;
+  width: 16px;
+  border-radius: 40px;
+  opacity: 0;
+}
+
+.caja:hover p {
+  opacity: 1;
+  transform: scale(1.3, 1.25);
+  background-color: rgba(0, 0, 0, 0.485);
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.pass:hover img {
+  scale: 1.25;
+  box-shadow: 0px 0px 0px 0px black;
+}
+
+.caja:hover img {
+  scale: 1.25;
+  box-shadow: 0px 0px 0px 0px black;
+}
+
+.passive,
+.hab {
+  border-radius: 40px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(148, 110, 53);
+  width: 70px;
+  box-shadow: 0px 0px 30px 5px black;
+}
+
+.loreTitle {
+  font-family: "BeaufortforLOLBold";
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.527);
+  letter-spacing: 0.5px;
+  text-shadow: 1.5px 1.5px 0 rgb(22, 16, 12);
+  margin-bottom: 20px;
+}
+
+.loreChamp {
+  font-family: "FrizQuadrataRegular";
+  font-size: 18px;
+  color: rgb(155, 116, 18);
+  letter-spacing: 1px;
+  text-shadow: 1.5px 1.5px 0 rgba(0, 0, 0, 0.773);
+}
+
+.caja div {
+  position: relative;
+  width: 130px;
+  padding: 2px;
+  bottom: 190px;
+  left: -14px;
+  font-size: 10px;
+  background-color: rgba(166, 165, 165, 0.363);
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.pass div {
+  position: relative;
+  width: 130px;
+  padding: 2px;
+  bottom: 119px;
+  left: -14px;
+  font-size: 10px;
+  background-color: rgba(166, 165, 165, 0.363);
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.spn {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "FrizQuadrataRegular";
+  transition: 0.5;
+  font-size: 10px;
+}
+
+.spn:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.pass:hover div {
+  opacity: 1;
+}
+
+.caja:hover div {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1578px) {
+  .cont {
+    display: grid;
+    border-radius: 15px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    background-color: rgba(0, 0, 0, 0.665);
+  }
+
+  .dates {
+    grid-row-start: 2;
+    grid-column-end: 1;
+
+    margin-bottom: 30px;
+  }
+
+  .fot {
+    padding: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0px auto;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+  }
+}

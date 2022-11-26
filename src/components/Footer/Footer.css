@@ -1,0 +1,87 @@
+.footerConteiner {
+  height: 100%;
+  width: 100%;
+  min-width: 755px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  background-color: rgba(219, 215, 215, 0.535);
+}
+
+.contactos {
+  text-align: center;
+}
+
+.textosContactos {
+  padding-top: 35px;
+  color: rgb(84, 78, 12);
+}
+
+.contactanos {
+  font-family: "BeaufortforLOLBold";
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.dates {
+  font-family: "FrizQuadrataRegular";
+}
+
+.logoFooter {
+  grid-column-start: 2;
+  grid-column-end: 4;
+
+  text-align: center;
+}
+
+.logoFoot {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.cajaLog {
+  margin-top: 50px;
+}
+
+.brandIcons a {
+  color: rgba(87, 80, 2, 0.795);
+}
+
+.redes {
+  margin: 0 15px;
+  height: 35px;
+
+  transition: 0.5s;
+}
+
+.redes:hover {
+  color: rgba(135, 124, 4, 0.795);
+  transform: scale(1.1);
+}
+
+.copyright {
+  color: rgba(87, 80, 2, 0.795);
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+
+.boxScroll {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.scroll {
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+
+  color: rgba(87, 80, 2, 0.795);
+
+  transition: 300ms all ease;
+}
+
+.scroll:hover {
+  transform: scale(1.1);
+  color: rgba(135, 124, 4, 0.795);
+}

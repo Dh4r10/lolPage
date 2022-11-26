@@ -1,0 +1,31 @@
+.App {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-width: 755px;
+
+  position: relative;
+}
+
+.information {
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+}
+
+.boxLoad {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 400px;
+}
+
+@media screen and (max-width: 1046px) {
+  .boxLoad {
+    right: 100px;
+  }
+}
+
+.load {
+  width: 150px;
+}

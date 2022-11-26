@@ -1,0 +1,25 @@
+.Darkform {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 60px;
+
+  width: 100%;
+  height: 80px;
+  max-width: 500px;
+  position: relative;
+}
+
+.DarkcontrolBuscador {
+  width: 95.5%;
+  height: 50%;
+  background-color: rgba(74, 1, 148, 0.38);
+  color: rgb(177, 42, 223);
+  padding: 10px;
+  border: 1px solid;
+  border-color: rgb(97, 2, 179);
+  outline: none;
+  font-size: 20px;
+  font-family: "FrizQuadrataRegular";
+}

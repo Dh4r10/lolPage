@@ -1,0 +1,11 @@
+.DarkSun {
+  color: rgb(0, 0, 0);
+  opacity: 0;
+  right: 5px;
+}
+
+.DarkMoon {
+  color: rgb(157, 0, 255);
+  opacity: 0.5;
+  left: 5px;
+}

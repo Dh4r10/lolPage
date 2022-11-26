@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+
+.logoLol {
+  position: relative;
+  right: 45px;
+  width: 220px;
+  margin: 0 auto;
+}
+
+.logoLol img {
+  width: 100%;
+}
+
+.face {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin: 45px auto;
+  right: 0px;
+  border-radius: 40px;
+  transform: scale(1.1);
+  background-color: rgba(255, 255, 255, 0.719);
+  opacity: 0.6;
+}
+
+.switch {
+  display: flex;
+  justify-content: center;
+}
+
+.sun {
+  margin: 55px 0;
+  top: -9px;
+  position: relative;
+  color: rgb(0, 0, 0);
+  opacity: 0.7;
+  right: 5px;
+}
+
+.moon {
+  margin: 55px 0;
+  top: -9px;
+  position: relative;
+  color: rgb(255, 255, 255);
+  opacity: 0;
+  left: 5px;
+}
