@@ -76,30 +76,22 @@
 
 .pass,
 .caja {
-  position: relative;
   text-align: center;
-  height: 45%;
-  width: 45%;
-  border-radius: 40px;
-}
+  border-radius: 1000px;
 
-.caja p {
-  position: relative;
-  bottom: 78px;
-  left: 18px;
-  transition: 0.3s;
-  padding: 26px;
-  width: 16px;
-  border-radius: 40px;
-  opacity: 0;
-}
+  width: 140px;
+  height: 70px;
 
-.caja:hover p {
-  opacity: 1;
-  transform: scale(1.3, 1.25);
-  background-color: rgba(0, 0, 0, 0.485);
   cursor: pointer;
-  color: rgba(255, 255, 255, 0.45);
+}
+
+.hab{
+  text-align: center;
+  
+  border-radius: 40px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(148, 110, 53);
 }
 
 .pass:hover img {
@@ -112,8 +104,7 @@
   box-shadow: 0px 0px 0px 0px black;
 }
 
-.passive,
-.hab {
+.passive {
   border-radius: 40px;
   border-style: solid;
   border-width: 3px;
@@ -143,8 +134,8 @@
   position: relative;
   width: 130px;
   padding: 2px;
-  bottom: 190px;
-  left: -14px;
+  margin: 0 auto;
+  top: 10px;
   font-size: 10px;
   background-color: rgba(166, 165, 165, 0.363);
   border-radius: 5px;
@@ -156,8 +147,8 @@
   position: relative;
   width: 130px;
   padding: 2px;
-  bottom: 119px;
-  left: -14px;
+  margin: 0 auto;
+  top: 15px;
   font-size: 10px;
   background-color: rgba(166, 165, 165, 0.363);
   border-radius: 5px;

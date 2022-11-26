@@ -48,7 +48,6 @@ function Information() {
                       src={`${spellApi}/${x.spells[0].image.full}`}
                       alt="Spells"
                     />
-                    <p>Q</p>
                     <div>
                       <a className="spn">{x.spells[0].name}</a>
                     </div>
@@ -60,7 +59,6 @@ function Information() {
                       src={`${spellApi}/${x.spells[1].image.full}`}
                       alt="Spells"
                     />
-                    <p>W</p>
                     <div>
                       <a className="spn">{x.spells[1].name}</a>
                     </div>
@@ -72,7 +70,6 @@ function Information() {
                       src={`${spellApi}/${x.spells[2].image.full}`}
                       alt="Spells"
                     />
-                    <p>E</p>
                     <div>
                       <a className="spn">{x.spells[2].name}</a>
                     </div>
@@ -84,7 +81,6 @@ function Information() {
                       src={`${spellApi}/${x.spells[3].image.full}`}
                       alt="Spells"
                     />
-                    <p>R</p>
                     <div>
                       <a className="spn">{x.spells[3].name}</a>
                     </div>
