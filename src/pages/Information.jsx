@@ -12,9 +12,11 @@ function Information() {
     unicoChamp(params.id, setDatos);
   }, []);
 
+  const champInfo = Object.values(datos);
+
   return (
-    <>
-      {Object.values(datos).map((x) => (
+    <div>
+      {champInfo.map((x) => (
         <div key={x.id} className="info">
           <div key={x.id} className="cardChamp">
             <div className="cont">
@@ -95,7 +97,7 @@ function Information() {
           </div>
         </div>
       ))}
-    </>
+    </div>
   );
 }
 

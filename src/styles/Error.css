@@ -1,0 +1,12 @@
+.mensaje{
+    color: rgb(0, 0, 0);
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 448px 0;
+}
+
+.mensaje p{
+    text-decoration: solid;
+    font-size: 30PX;
+}

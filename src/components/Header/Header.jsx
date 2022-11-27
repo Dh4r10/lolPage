@@ -7,7 +7,6 @@ import Switch from "@mui/material/Switch";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSun } from "@fortawesome/free-solid-svg-icons";
 import { faMoon } from "@fortawesome/free-solid-svg-icons";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import Dark from "../../functions/Dark";
 import "../Header/DarkHeader.css";
 

@@ -6,11 +6,9 @@ import Footer from "../components/Footer/Footer";
 
 function ShowChamps() {
   return (
-    <div className="pag">
+    <div>
       <Header />
-      <div>
-        <Body />
-      </div>
+      <Body />
       <Footer />
     </div>
   );
